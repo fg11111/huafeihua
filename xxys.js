@@ -2,9 +2,14 @@
 小小影视 unlock Vip
 
 QX:
+
 [rewrite_local]👇
+
 https:\/\/.*\..*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body xxys.js
+
+
 MITM = *.*apps.com, *.xiao*.com
+
 */
 
 const path1 = "/ucp/index";
