@@ -20,7 +20,7 @@ var body = $response.body;
 
 
 
-body=body.replace(/vipLogo\":\d/g,'vipLogo":4').replace(/gender\":(\-|\+?)\d+/g,'gender":1').replace(/isPaid\":\d+/g,'isPaid":1').replace(/supUserId\":\d+/g,'supUserId":0').replace(/hasBuy\":\w+/g,'hasBuy":true').replace(/vipEndDate\":\"(.*?)\"/g,'vipEndDate":\"2222-02-22\"').replace(/phone\":\"(.*?)\"/g,'phone":\"JungegeCN\"').replace(/userCls\":\d+/g,'userCls":2').replace(/isExpired\":\d+/g,'isExpired":1');
+body=body.replace(/vipLogo\":\d/g,'vipLogo":4').replace(/gender\":(\-|\+?)\d+/g,'gender":1').replace(/isPaid\":\d+/g,'isPaid":1').replace(/supUserId\":\d+/g,'supUserId":0').replace(/hasBuy\":\w+/g,'hasBuy":true').replace(/vipEndDate\":\"(.*?)\"/g,'vipEndDate":\"2222-02-22\"').replace(/phone\":\"(.*?)\"/g,'phone":\"huafeihua\"').replace(/userCls\":\d+/g,'userCls":2').replace(/isExpired\":\d+/g,'isExpired":1');
 
 
 $done({body});
