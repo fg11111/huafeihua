@@ -10,7 +10,7 @@ Loon:
 #黄瓜视频VIP
 http-response ^https:\/\/ap1000\.cvxia\.com\/(user\/info|mov\/browse2*) script-path=https://raw.githubusercontent.com/fg11111/huafeihua/master/hgsp.js, requires-body=true, timeout=10, tag=黄瓜视频VIP
 
-MITM = http://api1000.cvxia.com
+MITM = api1000.cvxia.com
 
 
 */
