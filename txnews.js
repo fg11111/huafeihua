@@ -1,6 +1,8 @@
 /*
-更新时间: 2020-07-31 17:30
+更新时间: 2020-07-27 22:30
+
 腾讯新闻签到修改版，可以自动阅读文章获取红包，该活动为瓜分百万现金挑战赛，针对幸运用户参与
+
 获取Cookie方法:
 1.把以下配置复制到响应配置下
 2.打开腾讯新闻app，阅读几篇文章，倒计时结束后即可获取阅读Cookie;
@@ -14,24 +16,33 @@
 Surge 4.0
 [Script]
 腾讯新闻 = type=cron,cronexp=0 8 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,script-update-interval=0
+
 腾讯新闻 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, requires-body=true
+
 ~~~~~~~~~~~~~~~~~~~~~
 Loon 2.1.0+
 [Script]
 # 本地脚本
 cron "04 00 * * *" script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, enabled=true, tag=腾讯新闻
+
 http-request https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, requires-body=true
+
 -----------------
+
 QX 1.0.7+ :
  [task_local]
 0 9 * * * txnews.js, tag=腾讯新闻
  [rewrite_local]
 https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\? url script-request-body txnews.js
+
 ~~~~~~~~~~~~~~~~~~
  [MITM]
 hostname = api.inews.qq.com
+
 ---------------------------
+
 Cookie获取后，请注释掉Cookie地址。
+
 */
 const cookieName = '腾讯新闻';
 const $ = new Env(cookieName);
@@ -46,23 +57,7 @@ let isGetCookie = typeof $request !== 'undefined'
 if (isGetCookie) {
    GetCookie()
 } else {
-!(async () => {
-{ 
-  await getsign()
-  await activity()
-  await toRead()
-  await lookVideo()
-  await openApp()
-  await shareApp()
-  await Redpack()
-  await videoPack()
-  await StepsTotal()
-  await getTotal()
-  await showmsg()
- }
-})()
-  .catch((e) => $.logErr(e))
-  .finally(() => $.done())
+   all()
 }
 
 function GetCookie() {
@@ -82,7 +77,20 @@ if ($request &&$request.body.indexOf("video_read")> -1) {
   $.msg(cookieName, `获取视频地址: 成功🎉`, ``)
   }
  }
-
+async function all() 
+{ 
+  await getsign();
+  await activity();
+  await toRead();
+  await lookVideo();
+  await openApp();
+  await shareApp();
+  await Redpack();
+  await videoPack();
+  await StepsTotal();
+  await getTotal();
+  await showmsg();
+}
 
 //签到
 function getsign() {
@@ -134,12 +142,6 @@ function lookVideo() {
       $.msg(cookieName, '观看视频:'+ error)
         }else{
           if(logs == "true")$.log(`${cookieName}观看视频 - data: ${data}`)
-                 tolookresult = JSON.parse(data)
-     if(tolookresult.info=='success'){
-        videocoins = tolookresult.data.countdown_timer.countdown_tips
-     }else{
-     videocoins =""
-     }
     }
    resolve()
     })
