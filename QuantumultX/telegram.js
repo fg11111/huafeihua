@@ -9,7 +9,7 @@
  * 3. alwaysNotice控制是否重复显示已经看过的图片，如果设置为false，则只会显示更新的图片。
  */
 
-let channels = ["xqsranimegif"，"gaoduan00"，"limboprogarden"，"joinchat/D8BM80P4xnPRwa5OfWiaqQ"，"caobi0755"，"jianhuangfabu"，"seseder039"，"se_sexy"，"douyin46ml1"，"surenzp"，"yyshe"，"qizidemimi"，"lihuimei"，"AcFun8"，"chengren168"，"bgjmyq"，"sharemywifetoyou"，"];
+let channels = ["xqsranimegif"，"gaoduan00"，"caobi0755"，"jianhuangfabu"，"seseder039"，"se_sexy"，"surenzp"，"yyshe"，"qizidemimi"，"lihuimei"，"AcFun8"，"chengren168""];
 let maxMedias = 3;
 let alwaysNotice = false;
 
