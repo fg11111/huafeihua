@@ -9,7 +9,7 @@
  * 3. alwaysNotice控制是否重复显示已经看过的图片，如果设置为false，则只会显示更新的图片。
  */
 
-let channels = ["Orzmimi", "KeepNaive233_Pixiv", "legbueaty", "cjw25", "yande_hot", "weimeimeitu", "ailisizu", "togashi_safe", "Mzitu"];
+let channels = ["Orzmimi", "KeepNaive233_Pixiv", "cjw25", "yande_hot", "weimeimeitu", "ailisizu", "togashi_safe", "Mzitu"];
 let maxMedias = 5;
 let alwaysNotice = false;
 
