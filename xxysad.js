@@ -1,5 +1,5 @@
 /*
-XiaoXiaoYingShi unlock Vip
+XiaoXiaoYingShi unlock ad
 QX:
 https:\/\/.*\..*\.com\/(getGlobalData) url script-response-body https://raw.githubusercontent.com/fg11111/huafeihua/master/xxysad.js
 Surge:
