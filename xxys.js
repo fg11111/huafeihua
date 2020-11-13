@@ -7,10 +7,11 @@ http-response https:\/\/.*\..*\.com\/(ssp-svr\/ssp\/list3|ucp/index) requires-bo
 MITM = *.xxjjappss.com,*.huaerdadi.com
 */
 
-
 const ad = 'ssp-svr/ssp/list3';
 let obj = JSON.parse($response.body);
 
 if ($request.url.indexOf(ad) != -1) {
 delete obj.data.pmap
 }
+
+$done({body: JSON.stringify(obj)});
