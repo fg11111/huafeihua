@@ -6,8 +6,8 @@
 "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png, enabled=false",
 "0 9 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻, img-url=https://raw.githubusercontent.com/Orz-3/task/master/txnews.png, enabled=false",
 "0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率监控, img-url=https://raw.githubusercontent.com/Orz-3/task/master/exchangerate.png, enabled=false",
-"0 21 * * * https://raw.githubusercontent.com/Orz-3/QuantumultX/master/telegram.js, tag=Telegram频道图片推送, img-url=https://raw.githubusercontent.com/Orz-3/task/master/tgpic.png, enabled=false",
-"0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图, img-url=https://raw.githubusercontent.com/Orz-3/task/master/nasa.png, enabled=false",
-"30 7 * * * https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js, tag=每日一句+蚂蚁森林收能量, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/corn.png, enabled=false",
+"0 21 * * * https://raw.githubusercontent.com/fg11111/huafeihua/master/telegram.js, tag=Telegram频道图片推送, img-url=https://raw.githubusercontent.com/Orz-3/task/master/tgpic.png, enabled=false",
+"0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=NASA每日一图, img-url=https://raw.githubusercontent.com/Orz-3/task/master/nasa.png, enabled=false",
+"30 7 * * * https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js, tag=每日一句+蚂蚁森林收能量, img-url=https://raw.githubusercontent.com/Orz-3/task/master/corn.png, enabled=false",
     ]
 }
