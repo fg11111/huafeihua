@@ -1,13 +1,13 @@
 {
     "name": "花非花",
-    "description": "浮夸",
+    "description": "huafeihua",
     "task": [
 "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png, enabled=false",
 "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/iQIYI.png, enabled=false",
 "0 9 * * * https://raw.githubusercontent.com/fg11111/huafeihua/master/txnews.js, tag=腾讯新闻, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png, enabled=false",
 "0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/exchangerate.png, enabled=false",
 "0 21 * * * https://raw.githubusercontent.com/fg11111/huafeihua/master/telegram.js, tag=Telegram频道图片推送, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/tgpic.png, enabled=false",
-"7 30 * * * https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js, https://raw.githubusercontent.com/Orz-3/mini/master/corn.png, enabled=false",
+"7 30 * * * https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js, tag=每日一句+蚂蚁森林收能量, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/corn.png, enabled=false",
 
     ]
 }
