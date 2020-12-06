@@ -1,9 +1,12 @@
-{"name":"花非花","task":[{"config":"30 7 * * * https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/corn.png, tag=每日一句+蚂蚁森林收能量, enabled=true", 
-1 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/iQIYI.png, tag=爱奇艺, enabled=true",
-2 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/52pj.png, tag=52破解, enabled=true",
-2 0 * * * * https://raw.githubusercontent.com/fg11111/huafeihua/master/txnews.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/txnews.png, tag=腾讯新闻, enabled=true",
-0 21 * * * https://raw.githubusercontent.com/fg11111/huafeihua/master/telegram.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/tgpic.png, tag=Telegram频道图片推送, enabled=true",
-20 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/idaily.png, tag=iDaily每日环球视野, enabled=true",
-0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/exchangerate.png, tag=汇率监控, enabled=true",
-"}],
-"description":"花非花."}
+{
+    "name": "QX Scripts All",
+    "description": "QX Task Gallery by Peng-YM",
+    "task": [
+"0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解, img-url=https://raw.githubusercontent.com/Orz-3/task/master/52pj.png, enabled=false",
+"0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png, enabled=false",
+"0 9 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻, img-url=https://raw.githubusercontent.com/Orz-3/task/master/txnews.png, enabled=false",
+"0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率监控, img-url=https://raw.githubusercontent.com/Orz-3/task/master/exchangerate.png, enabled=false",
+"0 21 * * * https://raw.githubusercontent.com/Orz-3/QuantumultX/master/telegram.js, tag=Telegram频道图片推送, img-url=https://raw.githubusercontent.com/Orz-3/task/master/tgpic.png, enabled=false",
+"0 0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图, img-url=https://raw.githubusercontent.com/Orz-3/task/master/nasa.png, enabled=false",
+    ]
+}
