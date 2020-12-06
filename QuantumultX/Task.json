@@ -4,7 +4,7 @@
     "task": [
 "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解, img-url=https://raw.githubusercontent.com/Orz-3/task/master/52pj.png, enabled=false",
 "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png, enabled=false",
-"0 9 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻, img-url=https://raw.githubusercontent.com/Orz-3/task/master/txnews.png, enabled=false",
+"0 9 * * * https://raw.githubusercontent.com/fg11111/huafeihua/master/txnews.js, tag=腾讯新闻, img-url=https://raw.githubusercontent.com/Orz-3/task/master/txnews.png, enabled=false",
 "0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率监控, img-url=https://raw.githubusercontent.com/Orz-3/task/master/exchangerate.png, enabled=false",
 "0 21 * * * https://raw.githubusercontent.com/fg11111/huafeihua/master/telegram.js, tag=Telegram频道图片推送, img-url=https://raw.githubusercontent.com/Orz-3/task/master/tgpic.png, enabled=false",
 "0 6 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=NASA每日一图, img-url=https://raw.githubusercontent.com/Orz-3/task/master/nasa.png, enabled=false",
