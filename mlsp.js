@@ -22,7 +22,7 @@ const b = '/api/video/video/video_play';
 if (url.indexOf(a) != -1) {
     obj.data.item.vip = 1,
     obj.data.item.vip_expire = 4092647115,
-    obj.data.item.coin = 999998,
+    obj.data.item.coin = 999880,
     obj.data.item.nick = "花非花",
     body = JSON.stringify(obj);
 }
