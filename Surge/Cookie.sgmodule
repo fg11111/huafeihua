@@ -13,4 +13,4 @@ http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/repo
 
 [MITM]
 
-hostname = ifac*.iqiyi.com, www.52pojie.cn, api.inews.qq.com, *.video.qq.com, 
+hostname = %APPEND% ifac*.iqiyi.com, www.52pojie.cn, api.inews.qq.com, *.video.qq.com, 
