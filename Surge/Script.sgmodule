@@ -25,4 +25,4 @@ http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,m
 
 
 [MITM]
-hostname = ios.prod.ftl.netflix.com, trade-acs.m.taobao.com, avoscloud.com, 115.28.168.103, m.client.10010.com, account.wps.cn, api.bjxkhc.com, mp.weixin.qq.com, 
+hostname = %APPEND% ios.prod.ftl.netflix.com, trade-acs.m.taobao.com, avoscloud.com, 115.28.168.103, m.client.10010.com, account.wps.cn, api.bjxkhc.com, mp.weixin.qq.com, 
