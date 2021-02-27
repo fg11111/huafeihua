@@ -2,7 +2,7 @@ console.log($response.body);
 let obj=JSON.parse($response.body);
 /*obj={
   "data": {
-    "is_vip":1
+    "is_vip": 1
   }
 }
 */
