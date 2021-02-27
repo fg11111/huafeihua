@@ -22,7 +22,8 @@ http-response ^https?:\/\/api.bjxkhc.com\/index\.php\/app\/ios\/(vod\/show|(user
 
 http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js,tag=微信公众号去广告
 
+http-response ^https://1008610010\.laikanshu\.top/Member/getUserInfo requires-body=1,script-path=https://raw.githubusercontent.com/fg11111/huafeihua/master/tanhua.js, tag=探花live
 
 
 [MITM]
-hostname = %APPEND% ios.prod.ftl.netflix.com, trade-acs.m.taobao.com, avoscloud.com, 115.28.168.103, m.client.10010.com, account.wps.cn, api.bjxkhc.com, mp.weixin.qq.com, 
+hostname = %APPEND% ios.prod.ftl.netflix.com, trade-acs.m.taobao.com, avoscloud.com, 115.28.168.103, m.client.10010.com, account.wps.cn, api.bjxkhc.com, mp.weixin.qq.com, 1008610010.laikanshu.top, 
