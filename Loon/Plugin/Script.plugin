@@ -16,7 +16,7 @@ http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getde
 http-response ^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js,tag=微信公众号去广告
 
 # tanhua
-http-response ^https://1008610010\.laikanshu\.top/Member/getUserInfo requires-body=1,script-path=https://raw.githubusercontent.com/fg11111/huafeihua/master/tanhua.js,tag=探花live
+http-response ^https://1008610010\.laikanshu\.top/Member/getUserInfo requires-body=1,script-path=https://raw.githubusercontent.com/fg11111/huafeihua/master/tanhua.js,requires-body=true,timeout=10,tag=探花live
 
 
 [MITM]
