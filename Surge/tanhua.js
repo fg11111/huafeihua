@@ -2,8 +2,8 @@
 #!desc=iOS Script 模块配置
 
 [Script]
-http-response ^https://1008610010\.laikanshu\.top/Member/getUserInfo requires-body=1,script-path=https://raw.githubusercontent.com/fg11111/huafeihua/master/tanhua.js
+http-response ^https:\/\/lginstaacademy\.com(\/\/api\/movie\/addPlay|\/\/api\/member|\/api\/video_clip\/play|\/api\/app\/message_list|\/api\/home\/index_recommend|\/\/api\/movie\/play\/) requires-body=1,script-path=https://raw.githubusercontent.com/fg11111/huafeihua/master/Kumi.js, tag=酷咪
 
 
 [MITM]
-hostname = %APPEND% 1008610010.laikanshu.top
+hostname = %APPEND% lginstaacademy.com
