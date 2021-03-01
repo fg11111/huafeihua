@@ -3,20 +3,11 @@
 
 [Script]
 
-cron  script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/nasa/nasapic.js, tag=NASA每日一图
-
-cron  script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/idaily/idaily.js, tag=iDaily每日环球视野
-
 cron  script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺
 
 cron  script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js, tag=吾爱破解
 
 cron  script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js, tag=腾讯视频
 
-cron  script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js, tag=汇率监控
-
-cron  script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js, tag=腾讯新闻
-
 cron  script-path=https://raw.githubusercontent.com/dompling/Script/master/oneSay/oneSay.js, tag=每日一言
 
-cron  script-path=https://raw.githubusercontent.com/fg11111/huafeihua/master/telegram.js, tag=Telegram频道图片推送
