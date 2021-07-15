@@ -7,4 +7,4 @@
 ^https?:\/\/\s.youtube.com/api/stats/qoe?.*adformat= - reject
 
 [MITM]
-hostname = %APPEND% *.googlevideo.com,www.youtube.com,s.youtube.com
+hostname = *.googlevideo.com,www.youtube.com,s.youtube.com
