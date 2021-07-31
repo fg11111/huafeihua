@@ -51,6 +51,9 @@ DOMAIN,moo.qq.com
 # > Bika
 DOMAIN,storage1.picacomic.com
 
+# > Emby
+DOMAIN-SUFFIX,pornemby.club
+
 # > 其他
 DOMAIN,vip1.fhbf9.com
 DOMAIN-SUFFIX,pstatp.com
