@@ -1,4 +1,4 @@
-# 抖音
+# > DouYin
 DOMAIN-SUFFIX,amemv.cn
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,amemv.net
@@ -15,13 +15,13 @@ DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvideo.net
 DOMAIN-SUFFIX,douyinvod.com
 
-# 虎牙
+# > HuYa
 DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,huyagame.cn
 DOMAIN-SUFFIX,peiwanlu.com
 DOMAIN-SUFFIX,snapplay.com
 
-# 斗鱼
+# > DouYu
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,douyu.tv
 DOMAIN-SUFFIX,douyuba.cn
@@ -47,6 +47,13 @@ DOMAIN-SUFFIX,tencentmusic.com
 DOMAIN-SUFFIX,y.qq.com
 DOMAIN,aqqmusic.tc.qq.com
 DOMAIN,moo.qq.com
+
+# > TencentVideo
+DOMAIN-SUFFIX,mfm.video.qq.com
+DOMAIN-SUFFIX,v.smtcdns.com
+DOMAIN-SUFFIX,vv.video.qq.com
+USER-AGENT,MOO*
+USER-AGENT,TencentMidasConnect*
 
 # > Bika
 DOMAIN,storage1.picacomic.com
