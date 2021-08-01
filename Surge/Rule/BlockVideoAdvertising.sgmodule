@@ -3,7 +3,7 @@
 #!system=ios
 
 [General]
-force-http-engine-hosts = %APPEND% *
+force-http-engine-hosts = %APPEND% *.
 
 [Rule]
 DOMAIN,video-ad.sm.cn,REJECT-DROP
