@@ -3,7 +3,7 @@
 #!system=ios
 
 [General]
-force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net,220.112*,211.162*,124.193*,124.14*,119.79*
+force-http-engine-hosts = %APPEND% *
 
 [Rule]
 DOMAIN,video-ad.sm.cn,REJECT-DROP
