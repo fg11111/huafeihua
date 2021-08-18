@@ -48,13 +48,6 @@ DOMAIN-SUFFIX,y.qq.com
 DOMAIN,aqqmusic.tc.qq.com
 DOMAIN,moo.qq.com
 
-# > QQ Video
-DOMAIN-SUFFIX,mfm.video.qq.com
-DOMAIN-SUFFIX,v.smtcdns.com
-DOMAIN-SUFFIX,vv.video.qq.com
-USER-AGENT,MOO*
-USER-AGENT,TencentMidasConnect*
-
 # > Bika
 DOMAIN,storage1.picacomic.com
 
