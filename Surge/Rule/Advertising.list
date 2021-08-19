@@ -1,7 +1,5 @@
 # 去广告
 
 DOMAIN-SUFFIX,adstats.tencentmusic.com
-DOMAIN-SUFFIX,l.qq.com
 DOMAIN-SUFFIX,v-upload.huya.com
 DOMAIN-SUFFIX,api-adservices.apple.com
-DOMAIN-SUFFIX,voreader.reader.qq.com
