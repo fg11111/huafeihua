@@ -10,7 +10,7 @@ DOMAIN,video-ad.sm.cn,REJECT-DROP
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 
-DOMAIN-SUFFIX,adstats.tencentmusic.com,REJECT
+DOMAIN-SUFFIX,tencentmusic.com,REJECT
 DOMAIN-SUFFIX,v-upload.huya.com,REJECT
 DOMAIN-SUFFIX,api-adservices.apple.com,REJECT
 
