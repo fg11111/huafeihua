@@ -9,11 +9,15 @@ force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net,220.112*,211.162*,124.1
 DOMAIN,video-ad.sm.cn,REJECT-DROP
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
+DOMAIN,business.msstatic.com,REJECT
 
 [URL Rewrite]
 http://.+\.cp31\.ott\.cibntv\.net - reject
 http://(\d{1,3}\.){3}\d{1,3}/(variety|vlive\.qqvideo)\.tc\.qq\.com/ - reject
 ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
+^https?:\/\/pgdt\.gtimg\.cn\/141\/20204\/snscosdownload\/SZ\/reserved\/611c85de000082c6000000007bdd5f090000008d00004eec\?m=b48ba50747294b0aa836a3e4a55a96c1&ck=b48ba50747294b0aa836a3e4a55a96c1 - reject
+^https?:\/\/business\.msstatic\.com - reject
 
 [MITM]
-hostname = %APPEND% vv.video.qq.com
+hostname = %APPEND% vv.video.qq.com, pgdt.gtimg.cn, business.msstatic.com
