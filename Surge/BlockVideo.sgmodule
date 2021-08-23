@@ -11,7 +11,7 @@ DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,business.msstatic.com,REJECT
-DOMAIN,pgdt.*.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
 
 [URL Rewrite]
 http://.+\.cp31\.ott\.cibntv\.net - reject
