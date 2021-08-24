@@ -12,6 +12,8 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,business.msstatic.com,REJECT
 DOMAIN,pgdt.ugdtimg.com,REJECT
+DOMAIN-SUFFIX,mtrace.qq.com,REJECT-DROP
+DOMAIN-SUFFIX,btrace.qq.com,REJECT-DROP
 
 [URL Rewrite]
 http://.+\.cp31\.ott\.cibntv\.net - reject
