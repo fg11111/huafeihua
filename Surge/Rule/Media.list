@@ -73,16 +73,17 @@ DOMAIN,moo.qq.com
 # > Bika
 DOMAIN,storage1.picacomic.com
 
-# > Emby
-DOMAIN-SUFFIX,pornemby.club
+# > 扑飞漫画
+DOMAIN,res.img.scbrxhwl.com
+
+# > 禁漫天堂
+DOMAIN-SUFFIX,18comic.vip
 
 # > 其他
 DOMAIN,vip1.fhbf9.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,apdcdn.tc.qq.com
-DOMAIN-SUFFIX,71edge.com
 DOMAIN-SUFFIX,vvvcms.com
-DOMAIN-SUFFIX,18comic.vip
 
 
 
