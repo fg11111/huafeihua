@@ -80,12 +80,9 @@ DOMAIN,res.img.scbrxhwl.com
 
 
 # > 其他
-DOMAIN,vip1.fhbf9.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,apdcdn.tc.qq.com
-DOMAIN-SUFFIX,vvvcms.com
-
+#字节
 DOMAIN-SUFFIX,zjcdn.com
+#Huya字幕
 DOMAIN-SUFFIX,113.113.67.41
 
 
