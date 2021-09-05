@@ -6,13 +6,13 @@
 force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net,220.112*,211.162*,124.193*,124.14*,119.79*
 
 [Rule]
-DOMAIN,video-ad.sm.cn,REJECT-DROP
+DOMAIN,video-ad.sm.cn,REJECT-NO-DROP
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
 DOMAIN,business.msstatic.com,REJECT
 DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN-SUFFIX,mtrace.qq.com,REJECT-DROP
+DOMAIN-SUFFIX,mtrace.qq.com,REJECT-NO-DROP
 
 [URL Rewrite]
 http://.+\.cp31\.ott\.cibntv\.net - reject
