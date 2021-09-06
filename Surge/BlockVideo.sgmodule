@@ -7,20 +7,27 @@ force-http-engine-hosts = %APPEND% *.cp31.ott.cibntv.net,220.112*,211.162*,124.1
 
 [Rule]
 DOMAIN,video-ad.sm.cn,REJECT-DROP
+
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+
 DOMAIN,pgdt.gtimg.cn,REJECT
-DOMAIN,business.msstatic.com,REJECT
+
 DOMAIN,pgdt.ugdtimg.com,REJECT
+
+DOMAIN,business.msstatic.com,REJECT
 
 [URL Rewrite]
 http://.+\.cp31\.ott\.cibntv\.net - reject
 http://(\d{1,3}\.){3}\d{1,3}/(variety|vlive\.qqvideo)\.tc\.qq\.com/ - reject
 ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
 ^https?:\/\/pgdt\.gtimg\.cn\/141\/20204\/snscosdownload\/SZ\/reserved\/611c85de000082c6000000007bdd5f090000008d00004eec\?m=b48ba50747294b0aa836a3e4a55a96c1&ck=b48ba50747294b0aa836a3e4a55a96c1 - reject
-^https?:\/\/business\.msstatic\.com\/ssp\/material\/ej4HzdTmFlmlVBI4Cxb\.jpg - reject
 ^https?:\/\/pgdt\.ugdtimg\.com\/141\/20204\/snscosdownload\/SZ\/reserved\/60f8de6c000440c100000000d0e057090000008d00004eec\?m=ae0179ab65b6b11f2ec6a94b2cdd6bfe&ck=ae0179ab65b6b11f2ec6a94b2cdd6bfe - reject
 
+^https?:\/\/business\.msstatic\.com\/ssp\/material\/ej4HzdTmFlmlVBI4Cxb\.jpg - reject
+^https?:\/\/business\.msstatic\.com\/ssp\/material\/fyI7CI1NhaCxmqeUFTB\.jpg - reject
+^https?:\/\/business\.msstatic\.com\/ssp\/material\/CHbF2hsdCmOfDT8hqBb\.jpg - reject
+^https?:\/\/business\.msstatic\.com\/ssp\/material\/m8AvDaLewDJqr6rOQv9\.jpg - reject
 
 [MITM]
-hostname = %APPEND% vv.video.qq.com, pgdt.gtimg.cn, business.msstatic.com, pgdt.ugdtimg.com
+hostname = %APPEND% vv.video.qq.com, pgdt.gtimg.cn, pgdt.ugdtimg.com, business.msstatic.com
