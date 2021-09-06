@@ -18,7 +18,7 @@ http://.+\.cp31\.ott\.cibntv\.net - reject
 http://(\d{1,3}\.){3}\d{1,3}/(variety|vlive\.qqvideo)\.tc\.qq\.com/ - reject
 ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
 ^https?:\/\/pgdt\.gtimg\.cn\/141\/20204\/snscosdownload\/SZ\/reserved\/611c85de000082c6000000007bdd5f090000008d00004eec\?m=b48ba50747294b0aa836a3e4a55a96c1&ck=b48ba50747294b0aa836a3e4a55a96c1 - reject
-^https?:\/\/business\.msstatic\.com - reject
+^https?:\/\/business\.msstatic\.com\/ssp\/material\/ej4HzdTmFlmlVBI4Cxb\.jpg - reject
 ^https?:\/\/pgdt\.ugdtimg\.com\/141\/20204\/snscosdownload\/SZ\/reserved\/60f8de6c000440c100000000d0e057090000008d00004eec\?m=ae0179ab65b6b11f2ec6a94b2cdd6bfe&ck=ae0179ab65b6b11f2ec6a94b2cdd6bfe - reject
 
 
