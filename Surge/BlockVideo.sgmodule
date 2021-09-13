@@ -11,24 +11,32 @@ DOMAIN,video-ad.sm.cn,REJECT-DROP
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 
+# QQ Music
 DOMAIN,pgdt.gtimg.cn,REJECT
 
-DOMAIN,pgdt.ugdtimg.com,REJECT
-
+# HuYa
 DOMAIN,business.msstatic.com,REJECT
 
 [URL Rewrite]
 http://.+\.cp31\.ott\.cibntv\.net - reject
 http://(\d{1,3}\.){3}\d{1,3}/(variety|vlive\.qqvideo)\.tc\.qq\.com/ - reject
 ^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
-^https?:\/\/pgdt\.gtimg\.cn\/141\/20204\/snscosdownload\/SZ\/reserved\/611c85de000082c6000000007bdd5f090000008d00004eec\?m=b48ba50747294b0aa836a3e4a55a96c1&ck=b48ba50747294b0aa836a3e4a55a96c1 - reject
-^https?:\/\/pgdt\.ugdtimg\.com\/141\/20204\/snscosdownload\/SZ\/reserved\/60f8de6c000440c100000000d0e057090000008d00004eec\?m=ae0179ab65b6b11f2ec6a94b2cdd6bfe&ck=ae0179ab65b6b11f2ec6a94b2cdd6bfe - reject
 
-^https?:\/\/business\.msstatic\.com\/ssp\/material\/ej4HzdTmFlmlVBI4Cxb\.jpg - reject
-^https?:\/\/business\.msstatic\.com\/ssp\/material\/fyI7CI1NhaCxmqeUFTB\.jpg - reject
-^https?:\/\/business\.msstatic\.com\/ssp\/material\/CHbF2hsdCmOfDT8hqBb\.jpg - reject
-^https?:\/\/business\.msstatic\.com\/ssp\/material\/m8AvDaLewDJqr6rOQv9\.jpg - reject
+# QQ Music
+^https?:\/\/pgdt\.gtimg\.cn\/141\/20204\/snscosdownload\/SZ\/reserved\/611c85de000082c6000000007bdd5f090000008d00004eec\?m=b48ba50747294b0aa836a3e4a55a96c1&ck=b48ba50747294b0aa836a3e4a55a96c1 - reject
+
+# HuYa
+^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
+
+# DouYu
+^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo - reject
+^https?:\/\/capi\.douyucdn\.cn\/api\/ios_app\/check_update data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
+^https?:\/\/capi\.douyucdn\.cn\/api\/v1\/getStartSend?client_sys=ios data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
+^https?:\/\/capi\.douyucdn\.cn\/lapi\/sign\/app(api)?\/getinfo\?client_sys=ios data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
+^https?:\/\/douyucdn\.cn\/.+?\/appapi\/getinfo data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
+^https?:\/\/staticlive\.douyucdn\.cn\/.+?\/getStartSend data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
+^https?:\/\/staticlive\.douyucdn\.cn\/upload\/signs\/ data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
 
 
 [MITM]
-hostname = %APPEND% vv.video.qq.com, pgdt.gtimg.cn, pgdt.ugdtimg.com, business.msstatic.com, 
+hostname = %APPEND% vv.video.qq.com, pgdt.gtimg.cn, business.msstatic.com, capi.douyucdn.cn, rtbapi.douyucdn.cn, staticlive.douyucdn.cn
