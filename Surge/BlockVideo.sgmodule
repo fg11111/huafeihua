@@ -17,6 +17,9 @@ DOMAIN,pgdt.gtimg.cn,REJECT
 # HuYa
 DOMAIN,business.msstatic.com,REJECT
 
+# ZhangMeng
+DOMAIN,gpcd.gtimg.cn,REJECT
+
 [URL Rewrite]
 http://.+\.cp31\.ott\.cibntv\.net - reject
 http://(\d{1,3}\.){3}\d{1,3}/(variety|vlive\.qqvideo)\.tc\.qq\.com/ - reject
