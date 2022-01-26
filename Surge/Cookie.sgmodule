@@ -13,4 +13,4 @@ http-request https:\/\/www\.52pojie\.cn\/home\.php\? script-path=https://raw.git
 
 [MITM]
 
-hostname = %APPEND% passport.iqiyi.com, www.52pojie.cn, *.video.qq.com, m.client.10010.com
+hostname = %APPEND% passport.iqiyi.com, www.52pojie.cn, *.video.qq.com, 
