@@ -18,4 +18,4 @@
 ^https?:\/\/(www.)?yhd\.com\/ https://yhd.com/ 302
 
 [MITM]
-hostname = %APPEND% www.google.cn
+hostname = www.google.cn
