@@ -1,35 +1,35 @@
 [Rule]
 # > 禁漫天堂
-DOMAIN-SUFFIX,18comic.cc,US🛹
-DOMAIN-SUFFIX,18comic.org,US🛹
-DOMAIN-SUFFIX,18comic.vip,US🛹
+DOMAIN-SUFFIX,18comic.cc
+DOMAIN-SUFFIX,18comic.org
+DOMAIN-SUFFIX,18comic.vip
 
 # > Pornhub
-DOMAIN-SUFFIX,phncdn.com,US🛹
-DOMAIN-SUFFIX,phprcdn.com,US🛹
-DOMAIN-SUFFIX,pornhub.com,US🛹
-DOMAIN-SUFFIX,pornhubpremium.com,US🛹
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
 
 # > xvideos
-DOMAIN-SUFFIX,xvideos.com,US🛹
-DOMAIN-SUFFIX,xvideos-cdn.com,US🛹
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,xvideos-cdn.com
 
 # > 麻豆社
-DOMAIN-SUFFIX,ackcdn.net,US🛹
-DOMAIN-SUFFIX,strpst.com,US🛹
-DOMAIN-SUFFIX,mmcdn.com,US🛹
-DOMAIN-SUFFIX,madou.club,US🛹
+DOMAIN-SUFFIX,ackcdn.net
+DOMAIN-SUFFIX,strpst.com
+DOMAIN-SUFFIX,mmcdn.com
+DOMAIN-SUFFIX,madou.club
 
 # > CableAV
-DOMAIN,cableav.tv,US🛹
-DOMAIN-SUFFIX,128100.xyz,US🛹
+DOMAIN,cableav.tv
+DOMAIN-SUFFIX,128100.xyz
 
 # > 91Porn(1：论坛，2：视频)
-DOMAIN-SUFFIX,live,US🛹
-DOMAIN-SUFFIX,91p49.com,US🛹
+DOMAIN-SUFFIX,live
+DOMAIN-SUFFIX,91p49.com
 
 # > cccdv
-DOMAIN-SUFFIX,cccdv.com,US🛹
-DOMAIN-SUFFIX,avhhh8.com,US🛹
-DOMAIN-SUFFIX,cloudfront.xyz,US🛹
-DOMAIN-SUFFIX,cqscmy.net,US🛹
+DOMAIN-SUFFIX,cccdv.com
+DOMAIN-SUFFIX,avhhh8.com
+DOMAIN-SUFFIX,cloudfront.xyz
+DOMAIN-SUFFIX,cqscmy.net
