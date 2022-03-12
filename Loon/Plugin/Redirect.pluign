@@ -1,6 +1,3 @@
-#!name=重定向
-#!desc=重新定向
-
 
 [URL Rewrite]
 # Redirect Google Search Service
