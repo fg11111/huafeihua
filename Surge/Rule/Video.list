@@ -1,7 +1,4 @@
-#!name=规则延续
-#!desc=延续原有规则
 
-[Rule]
 
 # > 禁漫天堂
 DOMAIN-SUFFIX,18comic.cc
