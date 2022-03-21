@@ -1,0 +1,39 @@
+#!name=规则延续
+#!desc=延续原有规则
+
+[Rule]
+
+# > 禁漫天堂
+DOMAIN-SUFFIX,18comic.cc
+DOMAIN-SUFFIX,18comic.org
+DOMAIN-SUFFIX,18comic.vip
+
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
+
+# > xvideos
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,xvideos-cdn.com
+
+# > 麻豆社
+DOMAIN-SUFFIX,ackcdn.net
+DOMAIN-SUFFIX,strpst.com
+DOMAIN-SUFFIX,mmcdn.com
+DOMAIN-SUFFIX,madou.club
+
+# > CableAV
+DOMAIN,cableav.tv
+DOMAIN-SUFFIX,128100.xyz
+
+# > 91Porn(1：论坛，2：视频)
+DOMAIN-SUFFIX,live
+DOMAIN-SUFFIX,91p49.com
+
+# > cccdv
+DOMAIN-SUFFIX,cccdv.com
+DOMAIN-SUFFIX,avhhh8.com
+DOMAIN-SUFFIX,cloudfront.xyz
+DOMAIN-SUFFIX,cqscmy.net
