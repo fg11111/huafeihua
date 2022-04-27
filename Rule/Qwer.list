@@ -1086,3 +1086,6 @@ DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,rawgit.com
 DOMAIN-KEYWORD,github
+
+# > Baozimanhua
+DOMAIN-SUFFIX,www.baozimh.com
