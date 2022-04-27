@@ -1088,4 +1088,7 @@ DOMAIN-SUFFIX,rawgit.com
 DOMAIN-KEYWORD,github
 
 # > Baozimanhua
-DOMAIN-SUFFIX,www.baozimh.com
+DOMAIN-SUFFIX,baozimh.com
+
+# > Kailuo
+DOMAIN-SUFFIX,kairogame.jp
