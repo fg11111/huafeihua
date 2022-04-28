@@ -1117,6 +1117,7 @@ IP-CIDR6,2a0a:f280::/32,no-resolve
 
 # > Flowercloud
 DOMAIN-SUFFIX,flowercloud.yt
+DOMAIN-SUFFIX,flower.yt
 
 # > Haianxianwenxue
 DOMAIN-SUFFIX,haiax.net
