@@ -1,0 +1,7 @@
+[Rule]
+# IQiYi
+DOMAIN,api.cupid.dns.iqiyi.com,REJECT
+DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+
+# DouYu
+DOMAIN,rtbapi.douyucdn.cn,REJECT
