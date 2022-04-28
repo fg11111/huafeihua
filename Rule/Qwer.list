@@ -52,8 +52,6 @@ DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 
 # > Google
-
-# > Google Search
 DOMAIN-KEYWORD,google
 
 # > Google Voice
