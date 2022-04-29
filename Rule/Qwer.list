@@ -136,3 +136,7 @@ DOMAIN-SUFFIX,ptt.cc
 
 # > Unsplash
 DOMAIN-KEYWORD,unsplash
+
+# > 9to5mac or macrumors
+DOMAIN-SUFFIX,macrumors.com
+DOMAIN-SUFFIX,9to5mac.com
