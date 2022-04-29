@@ -16,7 +16,7 @@ DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
 # Douyu
 ^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo - reject
 
-#QQ Video
+# QQ Video
 ^http:\/\/vv\.video\.qq\.com\/checktime\? - reject
 ^https?:\/\/pgdt\.gtimg\.cn - reject
 
