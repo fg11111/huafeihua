@@ -296,5 +296,8 @@ DOMAIN-SUFFIX,t66y.com
 # > Huojian shaonv xiaomaibu
 DOMAIN-SUFFIX,rocketgirls.space
 
-# Ptt
+# > Ptt
 DOMAIN-SUFFIX,ptt.cc
+
+# > Unsplash
+DOMAIN-KEYWORD,unsplash
