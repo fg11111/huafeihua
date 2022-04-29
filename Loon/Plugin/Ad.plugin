@@ -6,6 +6,12 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 # Kailuo
 DOMAIN,placements.tapjoy.com,REJECT
 
+# Google
+DOMAIN-SUFFIX,ssl.google-analytics.com,REJECT
+DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
+
+
+
 [URL Rewrite]
 # Douyu
 ^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo - reject
@@ -23,6 +29,8 @@ DOMAIN,placements.tapjoy.com,REJECT
 ^https?:\/\/us.l.qq.com - reject
 ^https?:\/\/u6.y.qq.com - reject
 
+# Huya
+^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
 
 [MITM]
-hostname = rtbapi.douyucdn.cn,vv.video.qq.com,pgdt.gtimg.cn,portal.xunyou.mobi,us.l.qq.com,u6.y.qq.com
+hostname = rtbapi.douyucdn.cn,vv.video.qq.com,pgdt.gtimg.cn,portal.xunyou.mobi,us.l.qq.com,u6.y.qq.com,business.msstatic.com
