@@ -3,12 +3,17 @@
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 
-# DouYu
-DOMAIN,rtbapi.douyucdn.cn,REJECT
-
-# QQ Video
-DOMAIN,vv.video.qq.com,REJECT
-DOMAIN,pgdt.gtimg.cn,REJECT
-
 # Kailuo
 DOMAIN,placements.tapjoy.com,REJECT
+
+[URL Rewrite]
+# Douyu
+^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo - reject
+
+#QQ Video
+^http:\/\/vv\.video\.qq\.com\/checktime\? - reject
+^https?:\/\/pgdt\.gtimg\.cn - reject
+
+
+[MITM]
+hostname = rtbapi.douyucdn.cn,vv.video.qq.com,pgdt.gtimg.cn
