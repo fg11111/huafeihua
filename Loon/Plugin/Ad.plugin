@@ -12,3 +12,4 @@ DOMAIN,pgdt.gtimg.cn,REJECT
 
 # Kailuo
 DOMAIN, ws.tapjoyads.com ,REJECT
+DOMAIN-KEYWORD,tapjoy,REJECT
