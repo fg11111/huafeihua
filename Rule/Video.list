@@ -23,8 +23,7 @@ DOMAIN-SUFFIX,madou.club
 DOMAIN,cableav.tv
 DOMAIN-SUFFIX,128100.xyz
 
-# > 91Porn(1：论坛，2：视频)
-DOMAIN-KEYWORD,live
+# > 91Porn
 DOMAIN,91porn.com
 
 # > cccdv
