@@ -14,6 +14,15 @@ DOMAIN,placements.tapjoy.com,REJECT
 ^http:\/\/vv\.video\.qq\.com\/checktime\? - reject
 ^https?:\/\/pgdt\.gtimg\.cn - reject
 
+# Xunyou
+^https?:\/\/portal.xunyou.mobi - reject
+
+# QQ music
+#^https?:\/\/adstats.tencentmusic.com - reject
+#^https?:\/\/ad.tencentmusic.com - reject
+^https?:\/\/us.l.qq.com - reject
+^https?:\/\/u6.y.qq.com - reject
+
 
 [MITM]
-hostname = rtbapi.douyucdn.cn,vv.video.qq.com,pgdt.gtimg.cn
+hostname = %APPEND% rtbapi.douyucdn.cn,vv.video.qq.com,pgdt.gtimg.cn,portal.xunyou.mobi,us.l.qq.com,u6.y.qq.com
