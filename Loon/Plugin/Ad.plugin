@@ -8,11 +8,11 @@ DOMAIN,placements.tapjoy.com,REJECT
 
 [URL Rewrite]
 # Douyu
-^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo - reject
+^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo - REJECT
 
 #QQ Video
-^http:\/\/vv\.video\.qq\.com\/checktime\? - reject
-^https?:\/\/pgdt\.gtimg\.cn - reject
+^http:\/\/vv\.video\.qq\.com\/checktime\? - REJECT
+^https?:\/\/pgdt\.gtimg\.cn - REJECT
 
 
 [MITM]
