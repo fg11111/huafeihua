@@ -5,3 +5,7 @@ DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
 
 # DouYu
 DOMAIN,rtbapi.douyucdn.cn,REJECT
+
+# QQ Video
+DOMAIN,vv.video.qq.com,REJECT
+DOMAIN,pgdt.gtimg.cn,REJECT
