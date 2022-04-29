@@ -1,4 +1,0 @@
-[Rule]
-DOMAIN-SUFFIX,ssl.google-analytics.com,REJECT
-DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
-
