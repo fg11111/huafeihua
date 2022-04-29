@@ -11,5 +11,4 @@ DOMAIN,vv.video.qq.com,REJECT
 DOMAIN,pgdt.gtimg.cn,REJECT
 
 # Kailuo
-DOMAIN, ws.tapjoyads.com ,REJECT
-DOMAIN-SUFFIX,*.tapjoy.com,REJECT
+DOMAIN,placements.tapjoy.com,REJECT
