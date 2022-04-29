@@ -25,4 +25,4 @@ DOMAIN,placements.tapjoy.com,REJECT
 
 
 [MITM]
-hostname = %APPEND% rtbapi.douyucdn.cn,vv.video.qq.com,pgdt.gtimg.cn,portal.xunyou.mobi,us.l.qq.com,u6.y.qq.com
+hostname = rtbapi.douyucdn.cn,vv.video.qq.com,pgdt.gtimg.cn,portal.xunyou.mobi,us.l.qq.com,u6.y.qq.com
