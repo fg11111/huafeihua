@@ -41,17 +41,6 @@ DOMAIN-KEYWORD,google
 # > Google Voice
 DOMAIN,lens.l.google.com
 
-# > Google Drive
-PROCESS-NAME,Backup and Sync
-USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
-USER-AGENT,Google.Drive*
-USER-AGENT,*com.google.Drive*
-DOMAIN-SUFFIX,docs.google.com
-DOMAIN-SUFFIX,drive.google.com
-DOMAIN-SUFFIX,googledrive.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN,www.googleapis.com
-
 # > Instagram
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagram.com
