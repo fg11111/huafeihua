@@ -113,3 +113,8 @@ DOMAIN-KEYWORD,unsplash
 # > 9to5mac or macrumors
 DOMAIN-SUFFIX,macrumors.com
 DOMAIN-SUFFIX,9to5mac.com
+
+# > 18comic
+DOMAIN-KEYWORD,18comic
+
+
