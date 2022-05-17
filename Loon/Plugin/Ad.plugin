@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
 
 [URL Rewrite]
 # Douyu
-^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo - reject
+#^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo - reject
 
 # QQ Video
 ^http:\/\/vv\.video\.qq\.com\/checktime\? - reject
@@ -30,7 +30,7 @@ DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
 ^https?:\/\/u6.y.qq.com - reject
 
 # Huya
-^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
+#^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
 
 [MITM]
-hostname = rtbapi.douyucdn.cn,vv.video.qq.com,pgdt.gtimg.cn,portal.xunyou.mobi,us.l.qq.com,u6.y.qq.com,business.msstatic.com
+hostname = vv.video.qq.com,pgdt.gtimg.cn,portal.xunyou.mobi,us.l.qq.com,u6.y.qq.com
