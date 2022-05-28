@@ -118,16 +118,4 @@ DOMAIN-SUFFIX,9to5mac.com
 # > 18comic
 DOMAIN-KEYWORD,18comic
 
-# > Pornhub
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,phprcdn.com
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,pornhubpremium.com
-
-# > 91Porn
-DOMAIN,91porn.com
-
-# > xvideos
-DOMAIN-SUFFIX,xvideos.com
-DOMAIN-SUFFIX,xvideos-cdn.com
 
