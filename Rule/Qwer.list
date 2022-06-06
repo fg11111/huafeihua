@@ -112,10 +112,12 @@ DOMAIN-SUFFIX,ptt.cc
 DOMAIN-KEYWORD,unsplash
 
 # > 9to5mac or macrumors
-DOMAIN-SUFFIX,macrumors.com
-DOMAIN-SUFFIX,9to5mac.com
+DOMAIN-KEYWORD,macrumors
+DOMAIN-KEYWORD,9to5mac
 
 # > 18comic
 DOMAIN-KEYWORD,18comic
 
+# > pufei
+DOMAIN-SUFFIX,img.tueqi.com
 
