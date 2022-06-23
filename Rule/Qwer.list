@@ -161,3 +161,14 @@ DOMAIN-SUFFIX,img.tueqi.com
 # > podcasts
 DOMAIN-SUFFIX,podcasts.apple.com
 
+# > z-lib
+DOMAIN-SUFFIX,z-lib.org
+DOMAIN-SUFFIX,zh.z-lib.org
+DOMAIN-SUFFIX,zh.au1lib.org
+DOMAIN-SUFFIX,covers.zlibcdn2.com
+DOMAIN-SUFFIX,*. bookshome.net
+DOMAIN-SUFFIX,zh.b-ok.global
+DOMAIN-SUFFIX,zh.3lib.net
+DOMAIN-SUFFIX,zh.1lib.limited
+DOMAIN-SUFFIX,zh.1lib.education
+DOMAIN-SUFFIX,zh.1lib.to
