@@ -10,7 +10,8 @@ DOMAIN,placements.tapjoy.com,REJECT
 DOMAIN-SUFFIX,ssl.google-analytics.com,REJECT
 DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
 
-
+# QQ Video
+DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
 
 [URL Rewrite]
 # Douyu
@@ -18,19 +19,19 @@ DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
 
 # QQ Video
 ^http:\/\/vv\.video\.qq\.com\/checktime\? - reject
-^https?:\/\/pgdt\.gtimg\.cn - reject
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
 
 # Xunyou
-^https?:\/\/portal.xunyou.mobi - reject
+#^https?:\/\/portal.xunyou.mobi - reject
 
 # QQ music
 #^https?:\/\/adstats.tencentmusic.com - reject
 #^https?:\/\/ad.tencentmusic.com - reject
-^https?:\/\/us.l.qq.com - reject
-^https?:\/\/u6.y.qq.com - reject
+#^https?:\/\/us.l.qq.com - reject
+#^https?:\/\/u6.y.qq.com - reject
 
 # Huya
 #^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
 
 [MITM]
-hostname = vv.video.qq.com,pgdt.gtimg.cn,portal.xunyou.mobi,us.l.qq.com,u6.y.qq.com
+hostname = vv.video.qq.com
