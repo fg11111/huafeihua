@@ -53,13 +53,12 @@ DOMAIN-SUFFIX,zdywcdjoerv.com
 DOMAIN-SUFFIX,exosrv.com
 DOMAIN-SUFFIX,sectigo.com
 
-
-
 # > Netflav
 DOMAIN-KEYWORD,netflav
+DOMAIN-SUFFIX,akamai-cdn-content.com
 
 # > Jable
 DOMAIN-KEYWORD,jable
-
+DOMAIN-SUFFIX,mushroomtrack.com
 
 
