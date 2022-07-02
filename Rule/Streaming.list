@@ -61,4 +61,17 @@ DOMAIN-SUFFIX,akamai-cdn-content.com
 DOMAIN-KEYWORD,jable
 DOMAIN-SUFFIX,mushroomtrack.com
 
+# > Pornhub
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
+
+# > xvideos
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,xvideos-cdn.com
+
+# > 91Porn
+DOMAIN,91porn.com
+DOMAIN-SUFFIX,wonderfulday27.live
 
