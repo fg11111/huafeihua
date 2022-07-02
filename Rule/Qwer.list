@@ -159,6 +159,7 @@ DOMAIN-KEYWORD,18comic
 DOMAIN-SUFFIX,img.tueqi.com
 
 # > podcasts
+DOMAIN-SUFFIX,podcasts.apple.com
 DOMAIN-SUFFIX,podcasts.captivate.fm
 
 # > z-lib
