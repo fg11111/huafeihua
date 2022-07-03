@@ -1,7 +1,9 @@
 [Rule]
 # IQiYi
 DOMAIN,api.cupid.dns.iqiyi.com,REJECT
-DOMAIN-SUFFIX,cupid.iqiyi.com,REJECT
+DOMAIN,t7z.cupid.iqiyi.com,REJECT
+DOMAIN,msga.cupid.iqiyi.com,REJECT
+DOMAIN,kjp.cupid.iqiyi.com,REJECT
 
 # Kailuo
 DOMAIN,placements.tapjoy.com,REJECT
