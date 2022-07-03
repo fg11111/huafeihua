@@ -1,6 +1,6 @@
 [Rule]
 # IQiYi
-DOMAIN,api.cupid.dns.iqiyi.com,REJECT
+#DOMAIN,api.cupid.dns.iqiyi.com,REJECT
 DOMAIN,t7z.cupid.iqiyi.com,REJECT
 DOMAIN,msga.cupid.iqiyi.com,REJECT
 DOMAIN,kjp.cupid.iqiyi.com,REJECT
@@ -13,7 +13,9 @@ DOMAIN-SUFFIX,ssl.google-analytics.com,REJECT
 DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
 
 # QQ Video
-DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
+#DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
+DOMAIN,iacc.rec.qq.com,REJECT
+DOMAIN-SUFFIX,gtimg.cn,REJECT
 
 [URL Rewrite]
 # Douyu
@@ -36,4 +38,4 @@ DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
 #^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
 
 [MITM]
-hostname = vv.video.qq.com
+hostname = #vv.video.qq.com
