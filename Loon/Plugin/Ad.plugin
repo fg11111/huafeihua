@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT
 # QQ Video
 #DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
 DOMAIN,iacc.rec.qq.com,REJECT
-DOMAIN-SUFFIX,gtimg.cn,REJECT
+DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
 
 [URL Rewrite]
 # Douyu
