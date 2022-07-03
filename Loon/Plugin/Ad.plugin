@@ -22,8 +22,8 @@ DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
 #^https?:\/\/rtbapi.douyucdn.cn\/japi\/sign\/app\/getinfo - reject
 
 # QQ Video
-^http:\/\/vv\.video\.qq\.com\/checktime\? - reject
-^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
+#^http:\/\/vv\.video\.qq\.com\/checktime\? - reject
+#^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
 
 # Xunyou
 #^https?:\/\/portal.xunyou.mobi - reject
@@ -38,4 +38,4 @@ DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
 #^https?:\/\/business\.msstatic\.com\/advertiser\/ - reject
 
 [MITM]
-hostname = #vv.video.qq.com
+hostname = vv.video.qq.com
