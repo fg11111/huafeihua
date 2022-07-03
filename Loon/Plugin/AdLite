@@ -1,0 +1,10 @@
+[Rule]
+# IQiYi
+DOMAIN,t7z.cupid.iqiyi.com,REJECT
+DOMAIN,msga.cupid.iqiyi.com,REJECT
+DOMAIN,kjp.cupid.iqiyi.com,REJECT
+
+# QQ Video
+DOMAIN,iacc.rec.qq.com,REJECT
+DOMAIN-SUFFIX,pgdt.gtimg.cn,REJECT
+
