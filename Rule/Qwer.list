@@ -172,3 +172,8 @@ DOMAIN-SUFFIX,*.zlibcdn.com
 
 # > V2ex
 DOMAIN-KEYWORD,v2ex
+
+# > Nexitally
+DOMAIN-SUFFIX,nexitally.com
+DOMAIN-SUFFIX,naixii.com
+
