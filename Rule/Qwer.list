@@ -42,7 +42,7 @@ DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 
 # > Google
-DOMAIN-KEYWORD,google
+DOMAIN-SUFFIX,google.com
 
 # > Google Voice
 DOMAIN,lens.l.google.com
