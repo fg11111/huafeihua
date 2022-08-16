@@ -99,3 +99,6 @@ USER-AGENT,*com.google.Drive*
 USER-AGENT,Google.Drive*
 PROCESS-NAME,backupandsync
 
+# > Missav
+DOMAIN-SUFFIX,missav.com
+
