@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,wiktionary.org
 
 # > Google
 DOMAIN-SUFFIX,google.com
+DOMAIN-KEYWORD,google
 
 # > Google Voice
 DOMAIN,lens.l.google.com
